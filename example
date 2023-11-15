@@ -1,0 +1,22 @@
+using System.Globalization;
+using System.Runtime.CompilerServices;
+using System.Runtime.Serialization;
+
+
+namespace System
+{
+    class NativePTR
+    {
+        public int x;
+        private int y;
+        public void Run()
+        {
+            x = 3;
+            y = 0x234;
+            x = x+y;
+            x = x+x;
+            System.X.Y.Z.T = 213;
+            System.Runtime();
+        }
+	}
+}
